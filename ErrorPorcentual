@@ -1,0 +1,11 @@
+# Valor estimado
+valor_estimado = 75
+
+# Valor de referencia
+valor_referencia = 80
+
+# Cálculo del error porcentual
+error_porcentual = abs(valor_estimado - valor_referencia) / valor_referencia * 100
+
+# Imprimir el resultado
+print("El error porcentual es:", error_porcentual, "%")
